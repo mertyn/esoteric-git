@@ -27,4 +27,5 @@ All of the aliases can be found in [`aliases.txt`](https://github.com/mertyn/eso
 
 ## Todo
 - Make install/uninstall scripts for windows
+- Add option to comment out lines in `aliases.txt`
 - Add option to add aliases to the local git config only
