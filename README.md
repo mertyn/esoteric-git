@@ -23,6 +23,7 @@ All of the aliases can be found in [`aliases.txt`](https://github.com/mertyn/eso
   ```
   <alias-name> "<git command not starting with git>"
   ```
+- Run `reload.sh` to quickly uninstall and reinstall while developing
 - Commit and make a pull request
 
 ## Todo
