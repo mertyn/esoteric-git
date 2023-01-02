@@ -4,4 +4,7 @@ fuck-go-back "reset HEAD~1"
 # resets the repository to the first commit, discards all changes
 commit-suicide "!sh $scripts/suicide.sh"
 
+# creates soos.txt with content "soos", commits with messsage "soos"
+soos "!sh $scripts/soos.sh"
+
 <unused line to make installation work>
