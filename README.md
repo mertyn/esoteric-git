@@ -4,7 +4,7 @@ Spice up your use of git with these aliases for common (and less common) git com
 ## Installation
 1. Clone the repo
 2. Run `install.sh`. You might need to add execution rights to the file using `chmod`
-3. Enjoy!
+3. Enjoy! <br> Note: For all the aliases to work, at least the folder `scripts/` needs to remain where you cloned and installed the them.
 
 ### Windows
 - Clone and run using the Git Bash
