@@ -7,4 +7,7 @@ commit-suicide "!sh $scripts/suicide.sh"
 # creates soos.txt with content "soos", commits with messsage "soos"
 soos "!sh $scripts/soos.sh"
 
+# selects a random file, deletes and commits it with message "i don't know how to git"
+annie "!sh $scripts/annie.sh"
+
 <unused line to make installation work>
