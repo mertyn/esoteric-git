@@ -1,3 +1,4 @@
 shush "push"
 fuck-go-back "reset HEAD~1"
+commit-suicide "!sh $scripts/suicide.sh"
 <unused line to make installation work>
