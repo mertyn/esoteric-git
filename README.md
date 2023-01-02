@@ -26,9 +26,16 @@ All of the aliases can be found in [`aliases.txt`](https://github.com/mertyn/eso
 - Run `reload.sh` to quickly uninstall and reinstall while developing
 - Commit and make a pull request
 
+### Adding scripts
+- Add your script in `scripts/`
+- Add an alias to it like this:
+
+  ```
+  <alias-name> "!sh $scripts/<script-name>.sh"
+  ```
+
 ## Todo
-- Add scripts external to git for more complex operations
-  - `install.sh` needs to add a path to a scripts directory to the path environment variable
 - Make install/uninstall scripts for windows
 - Add option to add aliases to the local git config only
+- ~~Add scripts external to git for more complex operations~~ Needs to be tested on windows
 - ~~Add option to comment out lines in `aliases.txt`~~
