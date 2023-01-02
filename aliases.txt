@@ -1,3 +1,5 @@
+abort-child "merge --abort"
+
 # selects a random file, deletes and commits it with message "i don't know how to git"
 annie "$script/annie.sh"
 
