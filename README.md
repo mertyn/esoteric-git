@@ -18,21 +18,20 @@ All of the aliases can be found in [`aliases.txt`](https://github.com/mertyn/eso
 ## Contributing
 - Fork the repository to your profile
 - Clone and edit `aliases.txt`
-- Make sure to follow this format:
+- Make sure to sort them alphabetically and follow this format:
 
   ```
   <alias-name> "<git command not starting with git>"
   ```
 - Run `reload.sh` to quickly uninstall and reinstall while developing
 - Commit and make a pull request
+- Complicated commands will need a script external to git. This can be done like this:
+  - Add your script in `scripts/`
+  - Add an alias to it like this:
 
-### Adding scripts
-- Add your script in `scripts/`
-- Add an alias to it like this:
-
-  ```
-  <alias-name> "$script/<script-name>.sh"
-  ```
+    ```
+    <alias-name> "$script/<script-name>.sh"
+    ```
 
 ## Todo
 - Make install/uninstall scripts for windows
