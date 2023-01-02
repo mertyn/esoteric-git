@@ -1,14 +1,14 @@
-shush "push"
-fuck-go-back "reset HEAD~1"
-gud "push --force"
+# selects a random file, deletes and commits it with message "i don't know how to git"
+annie "$script/annie.sh"
 
 # resets the repository to the first commit, discards all changes
 commit-suicide "$script/suicide.sh"
 
+fuck-go-back "reset HEAD~1"
+gud "push --force"
+shush "push"
+
 # creates soos.txt with content "soos", commits with messsage "soos"
 soos "$script/soos.sh"
-
-# selects a random file, deletes and commits it with message "i don't know how to git"
-annie "$script/annie.sh"
 
 <unused line to make installation work>
