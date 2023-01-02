@@ -31,7 +31,7 @@ All of the aliases can be found in [`aliases.txt`](https://github.com/mertyn/eso
 - Add an alias to it like this:
 
   ```
-  <alias-name> "!sh $scripts/<script-name>.sh"
+  <alias-name> "$script/<script-name>.sh"
   ```
 
 ## Todo

@@ -3,7 +3,7 @@
 file=aliases.txt
 
 # make absolute path to scripts available
-scripts=$(readlink -f scripts/)
+script="!sh $(readlink -f scripts/)"
 
 # loop through each line and add alias
 cat $file | while read y; do
