@@ -1,5 +1,6 @@
 shush "push"
 fuck-go-back "reset HEAD~1"
+gud "push --force"
 
 # resets the repository to the first commit, discards all changes
 commit-suicide "$script/suicide.sh"
