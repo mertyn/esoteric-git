@@ -30,5 +30,5 @@ All of the aliases can be found in [`aliases.txt`](https://github.com/mertyn/eso
 - Add scripts external to git for more complex operations
   - `install.sh` needs to add a path to a scripts directory to the path environment variable
 - Make install/uninstall scripts for windows
-- Add option to comment out lines in `aliases.txt`
 - Add option to add aliases to the local git config only
+- ~~Add option to comment out lines in `aliases.txt`~~
