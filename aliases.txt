@@ -6,6 +6,10 @@ commit-suicide "$script/suicide.sh"
 
 fuck-go-back "reset HEAD~1"
 gud "push --force"
+
+# commit using a random message from whatthecommit.com
+idk "$script/random.sh"
+
 shush "push"
 
 # creates soos.txt with content "soos", commits with messsage "soos"
